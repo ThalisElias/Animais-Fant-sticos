@@ -1,0 +1,12 @@
+/* GLOBAL */
+@import "./global/global.css";
+
+/* HOME */
+
+@import "./home/header.css";
+@import "./home/footer.css";
+
+/* UTLIDADES */
+
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
