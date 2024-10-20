@@ -1,0 +1,25 @@
+.menu {
+  grid-column: 3/5;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+  color: var(--cor-texto-1);
+}
+@media (max-width: 700px) {
+  @media (max-width: 700px) {
+    .menu {
+      grid-column: 1;
+      margin-top: 1rem;
+    }
+  }
+}

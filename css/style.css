@@ -5,8 +5,13 @@
 
 @import "./home/header.css";
 @import "./home/footer.css";
+@import "./home/animais.css";
+@import "./home/faq.css";
+@import "./home/contato.css";
+@import "./home/footer.css";
 
 /* UTLIDADES */
 
 @import "./utilidades/componentes.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
