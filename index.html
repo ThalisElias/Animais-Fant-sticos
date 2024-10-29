@@ -9,21 +9,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <title>Animais Fantásticos</title>
+  <script>
+    document.documentElement.className += " js"
+  </script>
 </head>
 
 
 <body class="cor-bg-1 cor-texto-1">
-  <nav class="menu cor-bg-2 font-1-x">
+  <nav class="menu cor-bg-2 font-1-x js-menu">
     <ul>
-      <li><a href="#animais"">Animais</a></li>
-      <li><a href=" #faq">Faq</a></li>
+      <li><a href="#animais">Animais</a></li>
+      <li><a href="#faq">Faq</a></li>
       <li><a href="#contato">Contato</a></li>
       <li><a href="https://thaliselias.github.io/">Dev →</a></li>
     </ul>
   </nav>
-  <section class="grid-section animais" id="animais">
+  <section class="grid-section animais js-scroll" id="animais">
     <h1 class="titulo font-2">Animais Fantásticos</h1>
-    <ul class="animais-lista">
+    <ul class="animais-lista js js-tabmenu">
       <li><img src="./img/imagem1.jpg" alt="raposa"></li>
       <li><img src="./img/imagem2.jpg" alt="esquilo"></li>
       <li><img src="./img/imagem3.jpg" alt="urso"></li>
@@ -31,7 +34,7 @@
       <li><img src="./img/imagem5.jpg" alt="macaco"></li>
       <li><img src="./img/imagem6.jpg" alt="leao"></li>
     </ul>
-    <div class="animais-descricao">
+    <div class="animais-descricao js js-tabcontent">
       <section>
         <h2 class="font-1-m cor-texto-2">Raposa</h2>
         <p>As raposas são mamíferos onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
@@ -70,9 +73,9 @@
       </section>
     </div>
   </section>
-  <section class="grid-section faq" id="faq">
+  <section class="grid-section faq js-scroll" id="faq">
     <h1 class="titulo font-2">FAQ</h1>
-    <dl class="faq-lista">
+    <dl class="faq-lista js-accordion">
       <dt>Qual a idade dos animais?</dt>
       <dd>A expectativa de vida dos animais silvestres varia amplamente de acordo com a espécie. Alguns roedores podem viver apenas alguns anos, enquanto grandes mamíferos como ursos ou elefantes podem viver décadas. Fatores como predadores, doenças e a disponibilidade de alimentos influenciam sua longevidade.</dd>
       <dt>Eles são fantásticos?</dt>
@@ -84,7 +87,7 @@
     </dl>
   </section>
 
-  <section class="grid-section contato" id="contato">
+  <section class="grid-section contato js-scroll" id="contato">
     <h1 class="titulo font-2">contato</h1>
     <div class="mapa">
       <img src="./img/mapa.png" alt="mapa">

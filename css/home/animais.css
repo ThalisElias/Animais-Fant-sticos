@@ -19,6 +19,9 @@
   overflow-y: scroll;
   grid-column: 2;
 }
+.animais-lista li {
+  cursor: pointer;
+}
 .animais-lista::-webkit-scrollbar {
   width: 18px;
 }
@@ -38,5 +41,23 @@
 @media (max-width: 700px) {
   .animais-lista {
     grid-column: 1;
+  }
+}
+.js .js-tabcontent section {
+  display: none;
+}
+
+.js-tabcontent section.ativo {
+  display: block !important;
+  animation: show 1s forwards;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
